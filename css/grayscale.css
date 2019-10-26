@@ -5,12 +5,12 @@
  */
 
 .img-crop {
-  max-height: 250px;
+  max-height: 350px;
   overflow: hidden;
 }
 
-img-crop img {
-  min-height:250px;
+.img-crop img {
+  min-height:350px;
   width:auto;
 }
 /*image fixed unifom height crop test*/
