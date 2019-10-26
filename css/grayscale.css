@@ -4,18 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
-.img-crop {
-  max-height: 350px;
-  overflow: hidden;
-}
-
-.img-crop img {
-  min-height:350px;
-  width:auto;
-}
-/*image fixed unifom height crop test*/
-
-
 #mainNav {
   min-height: 56px;
   background-color: #fff;
