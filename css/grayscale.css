@@ -20,6 +20,7 @@ transition: .7s ease-in;
 .circle-avatar{
 /* make it responsive */
 max-width: 250px;
+max-height: 250px;
 width:100%;
 height:auto;
 display:block;
