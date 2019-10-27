@@ -17,12 +17,19 @@ filter: none;
 transition: .7s ease-in;
 }
 
-.circle-avatar img{
-max-width: 500px;
-max-height: 500px;
+.circle-avatar{
+/* make it responsive */
+max-width: 300px;
+min-width: 150px;
+width:25%;
+height:auto;
+display:block;
 /* make it a circle */
 border-radius:50%;
-border: .5rem solid #fff;
+border: .5rem solid white;
+overflow: hidden;
+/* it is optional, for making this div centered in parent*/
+margin: 0 auto;
 }
 
 /*!
