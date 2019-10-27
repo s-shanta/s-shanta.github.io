@@ -17,7 +17,7 @@ filter: none;
 transition: .7s ease-in;
 }
 
-.circle-avatar{
+.circle-avatar img{
 max-width: 500px;
 max-height: 500px;
 /* make it a circle */
