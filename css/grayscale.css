@@ -17,7 +17,7 @@ filter: none;
 transition: 1s ease-in;
 }
 
-div.circle-avatar{
+.circle-avatar{
 /* make it responsive */
 max-width: 100%;
 width:100%;
