@@ -7,19 +7,19 @@
 .color-on-hover{
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
--webkit-transition: all 1s ease-in;
+-webkit-transition: all .7s ease-in;
 }
 
 .color-on-hover:hover{
 filter: grayscale(0%);
 -webkit-filter: grayscale(0%);
 filter: none;
-transition: 1s ease-in;
+transition: .7s ease-in;
 }
 
 .circle-avatar{
 /* make it responsive */
-max-width: 100%;
+max-width: 250px;
 width:100%;
 height:auto;
 display:block;
@@ -28,6 +28,7 @@ padding-top:100%;
 
 /* make it a circle */
 border-radius:50%;
+border: .5rem solid #fff;
 
 /* Centering on image`s center*/
 background-position-y: center;
