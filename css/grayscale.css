@@ -23,6 +23,7 @@ max-width: 300px;
 min-width: 150px;
 width:25%;
 height:auto;
+min-height: 150px;
 display:block;
 /* make it a circle */
 border-radius:50%;
