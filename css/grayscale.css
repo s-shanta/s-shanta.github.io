@@ -4,6 +4,38 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.color-on-hover{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all .7s ease-in;
+}
+
+.color-on-hover:hover{
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: .7s ease-in;
+}
+
+.circle-avatar{
+/* make it responsive */
+max-width: 300px;
+min-width: 150px;
+width:25%;
+height:auto;
+min-height: 150px;
+display:block;
+/* make it a circle */
+border-radius:50%;
+border: .5rem solid white;
+overflow: hidden;
+/* it is optional, for making this div centered in parent*/
+margin: 0 auto;
+}
+
+/*!
+ *Template Start
+ */
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -90,11 +122,11 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: url("../img/bggrid-loop.png"), linear-gradient(to bottom, rgba(22, 22, 22, 0.2) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/shantabg-crop.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-attachment: scroll, scroll, fixed;
+  background-size: auto, cover, cover;
 }
 
 .masthead h1 {
